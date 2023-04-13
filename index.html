@@ -423,45 +423,14 @@
 
     </footer>
 
-    <!-- <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
+<script>
+  window.onload = function() {
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    document.body.scrollTop = 0; // For Safari
+  };
+</script>
 
 
-        </script> -->
-        <!-- <script>
-          window.onscroll = function () {
-  myFunction();
-};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-// Add event listener for menu button click
-document.querySelector(".menu").addEventListener("click", function (event) {
-  event.preventDefault();
-  navbar.classList.toggle("show");
-});
-
-          </script> -->
 
     <script>
         window.onscroll = () => {
