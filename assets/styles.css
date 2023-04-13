@@ -30,6 +30,7 @@ html { box-sizing: border-box;}
 *{
     scroll-behavior: smooth;
 }
+
 html{
     background-color: #FCF5EB;
     font-size: 62.5%;
@@ -44,8 +45,6 @@ p{
 img{
     border-radius: 3px;
 }
-
-
 
 
 
@@ -73,7 +72,7 @@ img{
 
 .background-image{
     height: 50vh;
-    background-image: url(./images/workshop004.jpg);
+    background-image: url(./images/headerimage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,8 +171,6 @@ nav .icon {
     /* Make the unordered list a column and hide it */
     nav ul {
       flex-direction: column;
-      /* justify-content: center; */
-  
       display: none;
       position: absolute;
       top: 100%;
@@ -223,7 +220,6 @@ nav .icon {
   }
   
   
-
 /* Targeting devices that hover */
 @media (hover:hover) {
   .btn-effect:hover {
@@ -237,8 +233,6 @@ nav .icon {
     box-shadow: inset 3px 23px 20px -34px #0f0e12;
   }
 }
-
-
 
 
 
@@ -256,7 +250,7 @@ nav .icon {
     max-width: 670px;
     display: flex;
     flex-direction: column;
-    margin:  20vh auto;;
+    margin:  20vh auto;
 }
 
 .img-header-together{
@@ -308,6 +302,11 @@ nav .icon {
         flex-direction: column;
     }
 
+    .img-header-together h2{
+        margin: 5vh 0; 
+        padding: 2vh 1vh;
+    }
+
     .img-header-together img{
         margin-top: 5vh;
         margin-right: 0;
@@ -316,8 +315,9 @@ nav .icon {
     .about-text > p{
         text-align: center;
     }
-
   }
+
+
 
 /* 
 6. Contact Section Styles 
@@ -332,7 +332,7 @@ nav .icon {
 .contact-background-image{
     height: 60vh;
     width: 100%;
-    background-image: url(./images/workshop008.jpg);
+    background-image: url(./images/contactimage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -375,6 +375,7 @@ nav .icon {
     margin-top: 0;
     margin-bottom: 0;
 }
+
  /* Devices with hover */
  @media (hover:hover){
     .contact-link:hover {
@@ -397,16 +398,17 @@ nav .icon {
       }
 
 
-  .contact a{
-    font-size: 5vw;
+    .contact a{
+        font-size: 5vw;
   }
 
 
-  .contact-links> *:last-child{
-    margin-top: 3vh ;
-    margin-bottom: 4vh;
+    .contact-links> *:last-child{
+        margin-top: 3vh ;
+        margin-bottom: 4vh;
   }
 }
+
 
 
 /* 
@@ -477,8 +479,6 @@ nav .icon {
    background-color: rgba(252, 252, 252, 0.43);
   }
   
-
-  
 .text {
     color: #0f0e12;
     font-size: 1.6rem;
@@ -519,8 +519,9 @@ nav .icon {
 
   .portfolio-header{
     margin-top: 15vh;
-  }
      }
+     }
+
   /* BB Screen Width Styles */
   @media only screen and (max-width: 600px) {
     .portfolio{
@@ -542,6 +543,10 @@ nav .icon {
     .portfolio-gallery-item img{
         min-width: 100%;;
     }
+
+    .no-mobile-show{
+        display: none;
+    }
   }
 
 
@@ -551,7 +556,7 @@ nav .icon {
 */
 
 .weddings{
-    background-image: url(./images/workshop011.jpg);
+    background-image: url(./images/weddingsbackground.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -642,7 +647,17 @@ nav .icon {
 
  /* Middle Screen Width Styles */
  @media only screen and (max-width: 1000px) {
+    .weddings-text{
+        max-width: 500px;
+    }
 
+    .fine-print-text{
+        max-width: 500px;
+    }
+
+    .weddings-pricelist-about{
+        max-width: 450px;
+    }
   }
 
   /* BB Screen Width Styles */
@@ -650,11 +665,10 @@ nav .icon {
    
     .weddings{
         padding: 5vh 0 5vh 0;
-
     }
 
     .weddings-glass{
-        padding: 8vh 0;
+        padding: 10vh 0;
     }
 
     .fine-print, .weddings-about{
@@ -664,6 +678,7 @@ nav .icon {
     .weddings-text{
         text-align: justify;
         margin: 1vh;
+        
     }
 
     .price-list-h2{
@@ -672,10 +687,6 @@ nav .icon {
 
     .weddings-pricelist{
         margin: 1vh;
-    }
-
-    .weddings-pricelist-about{
-        margin: 0;
     }
 
     .weddings-pricelist-about p{
@@ -779,7 +790,7 @@ nav .icon {
        }
    
        .column > img{
-        margin-bottom: 0;
+        margin: 2vh auto;
         width: 100%;
        }
 
@@ -810,9 +821,6 @@ nav .icon {
     box-shadow: none;
    }
 
-
-
-
    .my-story-accent-image{
     margin-top: 10rem;
 
@@ -827,7 +835,7 @@ nav .icon {
 
 footer{
     width: 100%;
-    background-image: url(./images/aboutcrop.jpg);
+    background-image: url(./images/footerimage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
