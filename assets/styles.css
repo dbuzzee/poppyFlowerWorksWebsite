@@ -224,20 +224,19 @@ nav .icon {
   
   
 
-    /* Targeting devices that hover */
-    @media (hover:hover){
-        .btn-effect:hover{
-            box-shadow: inset 3px 23px 20px -34px #0f0e12;
-    }
-    /* Targeting devices that don't hover */
-    @media (hover:none){
-        .btn-effect:active{
-        box-shadow: inset 3px 23px 20px -34px #0f0e12;
-        }
+/* Targeting devices that hover */
+@media (hover:hover) {
+  .btn-effect:hover {
+    box-shadow: inset 3px 23px 20px -34px #0f0e12;
+  }
+}
 
-        }
-
-
+/* Targeting devices that don't hover */
+@media (hover:none) {
+  .btn-effect:active {
+    box-shadow: inset 3px 23px 20px -34px #0f0e12;
+  }
+}
 
 
 
