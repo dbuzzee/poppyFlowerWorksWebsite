@@ -514,12 +514,12 @@ nav .icon {
         margin: 5vh 0; 
         padding: 2vh 1vh;
      }
-  }
+  
 
   .portfolio-header{
     margin-top: 15vh;
   }
-
+     }
   /* BB Screen Width Styles */
   @media only screen and (max-width: 600px) {
     .portfolio{
