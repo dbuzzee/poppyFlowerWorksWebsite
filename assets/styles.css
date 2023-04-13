@@ -294,17 +294,21 @@ nav .icon {
 
   /* BB Screen Width Styles */
   @media only screen and (max-width: 600px) {
+    /* .about{
+        margin: 0 auto;
+        padding: 8vh 1vh;
+    } */
 
-    .about-content{
+    /* .about-content{
         margin: 10vh auto 0;
-    }
+    } */
     .img-header-together{
         flex-direction: column;
     }
 
     .img-header-together h2{
         margin: 5vh 0; 
-        padding: 2vh 1vh;
+        padding: 5vh 1vh;
     }
 
     .img-header-together img{
@@ -512,8 +516,9 @@ nav .icon {
     }
 
     .portfolio{
-        margin: 5vh 0; 
-        padding: 2vh 1vh;
+        /* margin: 5vh 0;  */
+        margin: 0 auto;
+        padding: 8vh 1vh;
      }
   
 
