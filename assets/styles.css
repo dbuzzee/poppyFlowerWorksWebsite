@@ -299,9 +299,10 @@ nav .icon {
         padding: 8vh 1vh;
     } */
 
-    /* .about-content{
+    .about-content{
         margin: 10vh auto 0;
-    } */
+    }
+
     .img-header-together{
         flex-direction: column;
     }
@@ -678,6 +679,7 @@ nav .icon {
 
     .fine-print, .weddings-about{
         margin-top: 3vh;
+        padding: 4rem 1rem;
     }
 
     .weddings-text{
@@ -808,13 +810,28 @@ nav .icon {
   @media only screen and (max-width: 600px) {
     .my-story{
     margin-bottom: 5vh;
+    padding-top: 10vh;
     }
 
     .my-story-content{
+        padding: 5vh 0;
         width: 100%;
     }
-    .column{
+
+    .my-story-together{
         padding: 0;
+    }
+
+    .my-story h2{
+        margin: 0;
+    }
+
+    .column{
+        padding: 4rem 1rem 0;
+    }
+
+    .column > img{
+        margin: 0 auto 2rem;
     }
 
    .some-page-wrapper{
